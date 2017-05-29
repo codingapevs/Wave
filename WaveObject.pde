@@ -8,14 +8,14 @@ float yn;
    yn = random(0,1);
  } 
  
- void update(){ //<>// //<>// //<>//
+ void update(){ //<>// //<>//
  //yoff += 0.01;
  yn += 0.01;
  }
   
 void make(){
   
-  //yoff = iy; //<>//
+  //yoff = iy;
   
   pushMatrix();
  
@@ -25,7 +25,7 @@ void make(){
   beginShape(); 
  
   //float xoff = 0;       // Option #1: 2D Noise
-   float xoff = yn; // Option #2: 1D Noise //<>// //<>// //<>//
+   float xoff = yn; // Option #2: 1D Noise //<>// //<>//
   
   // Iterate over horizontal pixels
   for (float x = 0; x <= width; x += 50) {
