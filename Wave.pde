@@ -1,4 +1,4 @@
-float yoff = 0.0; // 2nd dimension of perlin noise //<>// //<>// //<>// //<>//
+//float yoff = 0.0; // 2nd dimension of perlin noise //<>// //<>// //<>// //<>//
 int num = 4;
 color a,b,c,d;
 color[] colorstack;
