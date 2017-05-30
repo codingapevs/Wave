@@ -35,7 +35,7 @@ void draw() {
       flag++;
     }
     else if(flag==1){
-      image(photo, width/2, height/2+10, 200, 150);
+      image(photo, width/2, height/2+20, 200, 200);
       imageMode(CENTER);
       flag++;
     }
